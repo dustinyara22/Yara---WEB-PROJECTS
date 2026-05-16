@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dustin Craig D. Yara — JS Activities</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="FINAL.CSS">
+</head>
+<body>
+
+<header>
+  <h1>Dustin Craig D. Yara<br><span>JS Activities</span></h1>
+  <p>BSIT — 104<br>Web Design</p>
+</header>
+
+<div class="grid">
+
+  <!-- ACT 1 -->
+  <div class="card">
+    <span class="card-tag">Activity 1</span>
+    <h2>console.log()</h2>
+    <p>Logs a greeting message to the browser console on page load.</p>
+    <div class="output-box" id="act1-log">→ Check your console (F12)</div>
+    <button class="btn" onclick="runAct1()">Run Again</button>
+  </div>
+
+  <!-- ACT 2 -->
+  <div class="card">
+    <span class="card-tag">Activity 2</span>
+    <h2>innerHTML</h2>
+    <p>Uses <code>getElementById</code> to change the text content of an element.</p>
+    <div class="output-box" id="act2-out">—</div>
+    <button class="btn" onclick="runAct2()">Run</button>
+  </div>
+
+  <!-- ACT 3 -->
+  <div class="card">
+    <span class="card-tag">Activity 3</span>
+    <h2>alert() — External Script</h2>
+    <p>Triggers a greeting alert, simulating an external <code>script.js</code> file.</p>
+    <div class="output-box">window.alert() popup</div>
+    <button class="btn btn-red" onclick="runAct3()">Trigger Alert</button>
+  </div>
+
+  <!-- ACT 4 -->
+  <div class="card">
+    <span class="card-tag">Activity 4</span>
+    <h2>Variable → DOM + Alert</h2>
+    <p>Stores a name in a variable, updates the page, logs to console, and alerts.</p>
+    <div class="output-box" id="act4-out">—</div>
+    <button class="btn" onclick="runAct4()">Run</button>
+  </div>
+
+  <!-- ACT 5 -->
+  <div class="card">
+    <span class="card-tag">Activity 5</span>
+    <h2>Variable → DOM + Alert</h2>
+    <p>Same pattern as Act 4 but with a different message value.</p>
+    <div class="output-box" id="act5-out">—</div>
+    <button class="btn" onclick="runAct5()">Run</button>
+  </div>
+
+  <!-- ACT 6 -->
+  <div class="card">
+    <span class="card-tag">Activity 6</span>
+    <h2>window.alert()</h2>
+    <p>Demonstrates <code>window.alert()</code> — must be lowercase or it throws a TypeError.</p>
+    <div class="output-box">window.alert() — lowercase matters!</div>
+    <button class="btn btn-red" onclick="runAct6()">Trigger Alert</button>
+  </div>
+
+  <!-- ACT 7 -->
+  <div class="card">
+    <span class="card-tag">Activity 7</span>
+    <h2>document.write() — Math</h2>
+    <p>Uses <code>document.write()</code> to output the result of <strong>50 + 60</strong>.</p>
+    <div class="output-box" id="act7-result">—</div>
+    <button class="btn" onclick="runAct7()">Calculate</button>
+  </div>
+
+</div>
+
+<footer>Dustin Craig D. Yara &nbsp;·&nbsp; BSIT 104 &nbsp;·&nbsp; Web Design Activities</footer>
+
+<script src="FINAL.JS"></script>
+</body>
+</html>
